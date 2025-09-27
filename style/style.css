@@ -156,7 +156,6 @@ h2 {
     }
     .small-size-1 {
         display: block;
-        font-size: x-large;
     }
     .large-size-1 {
         display: none;
@@ -187,4 +186,5 @@ h2 {
         font-size: 13px;
     }
   }
+
 
