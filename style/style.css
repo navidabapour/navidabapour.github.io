@@ -16,6 +16,7 @@ p {
     float: left;
     width: 35%;
     margin: 2.5% 15% 0px 0px;
+    word-wrap: break-word;
 }
 
 .row:after {
@@ -186,5 +187,6 @@ h2 {
         font-size: 13px;
     }
   }
+
 
 
