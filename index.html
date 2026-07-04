@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <!-- Google tag (gtag.js) --> 
@@ -12,6 +12,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="Navid Abapour, نوید عباپور, Navid, نوید, Abapour, عباپور">
+    <link rel="preload" href="asset/webfonts/BZar.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="asset/webfonts/BZar-Bold.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="style/style.css">
     <script src="./asset/a076d05399.js.download"></script>
     <title>
@@ -24,15 +26,22 @@
   				scroll-behavior: smooth;
 			}
             @font-face {
-               font-family: 'B Zar';
-                src: 
-		     url('assets/webfonts/B\ Zar_0.ttf') format('truetype'),                    
-		     url('assets/webfonts/B\ Zar_0.ttf') format('ttf'),                    
-                     url('assets/webfonts/B\ Zar\ Bold_0.ttf') format('ttf')
-		     url('assets/webfonts/B\ Zar.woff') format('woff')
-		     url('assets/webfonts/B\ Zar.woff2') format('woff2');
+                font-family: 'B Zar';
+                src: url('asset/webfonts/BZar.woff2') format('woff2'),
+                     url('asset/webfonts/BZar.woff') format('woff'),
+                     url('asset/webfonts/BZar.ttf') format('truetype');
                 font-weight: normal;
                 font-style: normal;
+                font-display: swap;
+            }
+            @font-face {
+                font-family: 'B Zar';
+                src: url('asset/webfonts/BZar-Bold.woff2') format('woff2'),
+                     url('asset/webfonts/BZar-Bold.woff') format('woff'),
+                     url('asset/webfonts/BZar-Bold.ttf') format('truetype');
+                font-weight: bold;
+                font-style: normal;
+                font-display: swap;
             }
         	span.persian-text {
             	font-family: 'B Zar', serif;
