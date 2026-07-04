@@ -141,19 +141,17 @@ h2 {
     background-color: rgb(241, 111, 111);
   }
 
-@media only screen and (max-width: 580px) {
-    #pic {
-        margin-top: 250px;
-        padding-right: 20%;
-        margin-left: -35%;
-    }
-  }
-
 @media only screen and (max-width: 610px) {
+    .column {
+        width: 48%;
+        margin: 2.5% 2% 0 0;
+    }
     #pic {
-        margin-top: 25%;
-        padding-right: 20%;
-        margin-left: -35%;
+        width: 100%;
+        max-width: 220px;
+        height: auto;
+        margin: 0;
+        padding: 0;
     }
     .small-size-1 {
         display: block;
