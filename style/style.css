@@ -142,6 +142,10 @@ h2 {
   }
 
 @media only screen and (max-width: 610px) {
+    #d-1 {
+        display: flex;
+        align-items: center;
+    }
     .column {
         width: 48%;
         margin: 2.5% 2% 0 0;
