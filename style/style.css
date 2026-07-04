@@ -160,6 +160,9 @@ h2 {
     .small-size-1 {
         display: block;
     }
+    h5.small-size-1 {
+        font-size: 11px;
+    }
     .large-size-1 {
         display: none;
     }
